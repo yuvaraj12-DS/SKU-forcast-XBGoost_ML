@@ -47,6 +47,23 @@ This repository contains a complete pipeline for forecasting product-level sales
 ## Final outcome
 This model demonstrates production-grade accuracy and generalization for SKU-level demand forecasting. Further refinements could include deeper target transformations, stacking models, or segment-specific forecasting.
 
+## Foldar structure
+sku-forecast-xgboost/
+├── README.md                   
+├── data/                       
+│   └── Sales.csv    
+├── notebooks/ 
+│   └── Sales_Forcasting_Machine_Learning_Models.ipynb
+├── charts/                     
+│   └── feature_importance.png  
+│   └── forecast_vs_actual.png etc.
+├── html_exports/               
+│   └── Sales Forecasting Using_ML_Models.html
+├── docs/                       
+│   └── Sales Forecasting Using_ML_Models.pdf
+├── images/                     
+│   └── Final_forecast_vs_actual.png
+
 ## About Me
 
 ### Hi there I'm Yuvaraj Singh
