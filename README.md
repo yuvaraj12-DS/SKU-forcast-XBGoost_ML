@@ -51,7 +51,7 @@ This model demonstrates production-grade accuracy and generalization for SKU-lev
 sku-forecast-xgboost/
 ├── README.md                   
 ├── data/                       
-│   └── Sales.csv    
+│   └── Sales_Data.csv    
 ├── notebooks/ 
 │   └── Sales_Forcasting_Machine_Learning_Models.ipynb
 ├── charts/                     
@@ -60,7 +60,7 @@ sku-forecast-xgboost/
 ├── html_exports/               
 │   └── Sales Forecasting Using_ML_Models.html
 ├── docs/                       
-│   └── Sales Forecasting Using_ML_Models.pdf
+│   └── Sales Forecasting Using_ML_Models-Xgboost.pdf
 ├── images/                     
 │   └── Final_forecast_vs_actual.png
 
