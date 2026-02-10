@@ -12,7 +12,7 @@ This repository contains a complete pipeline for forecasting product-level sales
 
 ## Preprocessing
 - Capped extreme values in `ACTUAL` and `AVG_UNIT_PRICE` using 99th percentile
-- Applied log transformation to target variable (`ACTUAL_capped → ACTUAL_log`)
+- Applied log transformation to target variable (`ACTUAL_capped --> ACTUAL_log`)
 - Engineered robust features using time signals and lag patterns
 
 ## Feature Engineering
@@ -48,6 +48,7 @@ This repository contains a complete pipeline for forecasting product-level sales
 This model demonstrates production-grade accuracy and generalization for SKU-level demand forecasting. Further refinements could include deeper target transformations, stacking models, or segment-specific forecasting.
 
 ## Foldar structure
+```
 sku-forecast-xgboost/
 ├── README.md                   
 ├── data/                       
@@ -63,7 +64,7 @@ sku-forecast-xgboost/
 │   └── Sales Forecasting Using_ML_Models-Xgboost.pdf
 ├── images/                     
 │   └── Final_forecast_vs_actual.png
-
+```
 ## About Me
 
 ### Hi there I'm Yuvaraj Singh
